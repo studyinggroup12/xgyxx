@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>首页</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" th:href="@{/css/bootstrap.min.css}">
+<script th:src="@{/js/popper.min.js}"></script>
+<script th:src="@{/js/bootstrap.min.js}"></script>
+<script th:src="@{/js/vue.main.js}"></script>
+</head>
+<body>
+
+<body>
+    <form action="/user/save" name="loginfrom" accept-charset="utf-8" method="post">
+        <label class="label-tips" for="u">账号:</label>
+        <input type="text" id="username" name="username" />
+        
+        <label class="lable-tips" for="password">密码:</label>
+        <input type="password" id="password" name="password"  />
+        
+       		<label class="lable-tips" for="email">邮箱:</label>
+        	<input type="text" id="email" name="email" />
+        
+         <label class="lable-tips" for="nickname">昵称:</label>
+         <input type="text" id="nickname" name="nickname"  />
+        
+        <input type="submit" name="注册"/>
+    </form>
+</body>
+</body>
+</html>
